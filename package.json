@@ -1,0 +1,35 @@
+{
+  "name": "ordinal-inscription-example-using-bitcoinjs-lib",
+  "version": "1.0.0",
+  "description": "Examples of how to create Ordinal inscriptions using the bitcoinjs-lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --check src/**",
+    "lint:fix": "prettier --write src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fboucquez/ordinal-inscription-example-using-bitcoinjs-lib.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "ordinals",
+    "brc20",
+    "bitcoinjs-lib"
+  ],
+  "author": "Fernando Boucquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fboucquez/ordinal-inscription-example-using-bitcoinjs-lib/issues"
+  },
+  "homepage": "https://github.com/fboucquez/ordinal-inscription-example-using-bitcoinjs-lib#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.5",
+    "ecpair": "^2.1.0",
+    "jest": "^29.7.0",
+    "minimalistic-assert": "^1.0.1",
+    "prettier": "^3.0.3",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
